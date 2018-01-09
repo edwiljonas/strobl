@@ -1,0 +1,30 @@
+.footer{
+  a:hover{
+    color: inherit !important;
+  }
+  margin-top: 60px;
+  width: 100%; padding: 40px 0;
+  box-sizing: border-box;
+  background-color: #80CB26;
+  .container{
+    .row{
+      .col-md-6:nth-child(2){
+        text-align: right;
+      }
+    }
+  }
+  *{
+    color: #000;
+  }
+}
+@media (max-width: 992px) {
+  .footer{
+    *{
+      text-align: center !important;
+    }
+    .col-md-6{
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+}
